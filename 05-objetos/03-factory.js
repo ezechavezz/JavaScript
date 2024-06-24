@@ -1,10 +1,10 @@
 function crearUsuario (name, email){  //el nombre tiene q estar en camelCase
     return {
         email,
-        name, //poner somo name es igual a poner: name: name,
+        name, //poner solo name es igual a poner: name: name,
         estado: true,
         recuperCuenta: function () {
-        console.log('Recuperando Cuanta...');
+        console.log('Recuperando Cuenta...');
         }
     }
 } 
